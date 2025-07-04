@@ -2,7 +2,7 @@ import React from 'react';
 import gsap from 'gsap';
 import { SplitText } from 'gsap/SplitText';
 //These gsap plugins arent automatically active so you have to register them. you only need to do this once
-import { ScrollTrigger} from "gsap/all";
+import { ScrollTrigger } from "gsap/all";
 import Navbar from './components/Navbar.jsx';
 import Hero from "./components/Hero.jsx";
 
