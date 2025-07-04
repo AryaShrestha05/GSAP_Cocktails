@@ -5,6 +5,7 @@ import { SplitText } from 'gsap/SplitText';
 import { ScrollTrigger } from "gsap/all";
 import Navbar from './components/Navbar.jsx';
 import Hero from "./components/Hero.jsx";
+import Cocktails from "./components/Cocktails.jsx";
 
 //Makes sure both plugins are used globally for every file to use
 //splittext splits texts and individually moves it
@@ -15,7 +16,7 @@ const App = () => {
         <main>
             <Navbar />
             <Hero />
-            <div className="h-dvh bg-black"></div>
+            <Cocktails />
         </main>
     )
 }
