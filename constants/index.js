@@ -3,7 +3,8 @@ const navLinks = [
         id: "cocktails",
         title: "Cocktails",
     },
-    {
+    /**
+     * {
         id: "about",
         title: "About Us",
     },
@@ -11,10 +12,13 @@ const navLinks = [
         id: "work",
         title: "The Art",
     },
+     */
+
     {
         id: "contact",
-        title: "Contact",
+        title: "Contact Me",
     },
+
 ];
 
 const cocktailLists = [

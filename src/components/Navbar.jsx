@@ -21,14 +21,14 @@ const Navbar = () => {
         <nav>
             <div>
                 <a href="#home" className={"flex items-center gap-2"}>
-                    <img src="/images/logo.png" alt="logo of velvet pour, the company" />
+                    <img src="/images/logo.jpg" alt="face of flightreacts" height={40} width={40}/>
                     <p>Arya Shrestha</p>
                 </a>
 
                  <ul>
                     {navLinks.map((link) => (
                         <li key={link.id}>
-                             <a href={`#${link.id}`}>{link.title}</a>
+                             <a href="mailto:arya.shrestha1@marist.edu">{link.title}</a>
                         </li>
                     ))}
                 </ul>
